@@ -1,0 +1,28 @@
+{
+  "name": "protokb-kle-import",
+  "version": "1.0.0",
+  "description": "Proto KB plugin that allow to import KLE layouts",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KB-Sanity/protokb-kle-import.git"
+  },
+  "author": "i7d3v3l0p3r@yandex.ru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KB-Sanity/protokb-kle-import/issues"
+  },
+  "homepage": "https://github.com/KB-Sanity/protokb-kle-import#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.5",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0"
+  },
+  "dependencies": {
+    "@kb-sanity/proto-kb-types": "^0.0.3"
+  }
+}
