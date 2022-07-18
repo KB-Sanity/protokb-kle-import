@@ -5,7 +5,7 @@ module.exports = defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      formats: ['es'],
+      formats: ['umd'],
       name: "protokb-kle-import",
       fileName: () => 'index.js',
     }
